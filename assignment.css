@@ -3,7 +3,7 @@
     font-family: 'Work sans';
 }
 header{
-    background-image: url('images/banner/banner3.png');
+    background-image: url('images/banner/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 131px;
@@ -32,7 +32,7 @@ header{
     margin-bottom: 30px;
 }
 .btn-primary{
-    color: #005FAC;
+    color: #181818;
     font-weight: 600;
     font-size: 20px;
     padding:21px 25px 20px 25px;
@@ -109,7 +109,8 @@ li{
     justify-content: center;
 }
 .grad-img{
-    background-image: url('images/watch.png '), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-image: url('images/watch.png '), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: 1140px 325px;
@@ -136,7 +137,7 @@ li{
     font-weight: 600;
     line-height: 23px;
     padding: 21px 36px 20px 36px;
-    color: #005FAC;
+    color:#F15B22;
     background: white;
     border-radius: 5px;
     border-style: none;
@@ -146,16 +147,16 @@ li{
 /* about me section */
 
 .a-m{
-    background: rgb(30,20,232);
-    background: linear-gradient(90deg, rgba(30,20,232,1) 0%, rgba(68,68,247,1) 35%, rgba(144,152,189,1) 96%);
-    color:#FFFFFF;
+    background: rgb(238,240,192);
+    background: linear-gradient(0deg, rgba(238,240,192,1) 35%, rgba(237,171,0,0.927608543417367) 100%);
+    color:#181818;
     padding:120px 148px 140px 165px;
     width: 1240px;
     margin-bottom:130px;
     margin:0 auto;
 }
 .about-title{
-    color:white;
+    color:#FFFFFF;
     text-align: center;
 }
 .about-content{
@@ -235,8 +236,8 @@ input{
     font-size: 20px;
     font-weight: 600;
     line-height:24px;
-    color:#FFFFFF;
-    background-color: #005FAC;
+    color:#F15B22;
+    background-color: #FFFFFF;
     padding:20px 36px;
     border-radius:8px;
     margin-top:16px;
